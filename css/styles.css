@@ -46,9 +46,17 @@ p{
 }
 
 h3{
-    color: whitesmoke;
+    color:darkred;
+    font-family: sans-serif;
 }
 
 ul{
     color: darkgreen;
+}
+
+.puppy{
+    width: 500px;
+    height: auto;
+    border-radius: 500px;
+    border: none;
 }
