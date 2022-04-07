@@ -2,6 +2,11 @@ body {
   background-color: rgb(26, 25, 25);
 }
 
+nav {
+  background-color: gray;
+  padding: 15px;
+}
+
 nav ul {
   list-style-type: none;
   text-align: center;
@@ -9,6 +14,19 @@ nav ul {
 
 nav li {
   display: inline;
+  font-size: 25px;
+  padding: 25px;
+  border: 1px solid black;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: aqua;
+  background-color: darkgray;
 }
 
 h1 {
